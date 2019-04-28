@@ -4,8 +4,8 @@
     const gridContainer = document.getElementsByClassName('game-container')[0];
     
     const backgroundImage = {
-        'background-question-image': 'assets/images/question.png',
-        'background-diamond-image': 'assets/images/diamond.png',        
+        'background-question-image': 'assets/question.png',
+        'background-diamond-image': 'assets/diamond.png',        
         'background-question-position': '600px',
         'background-diamond-position': '5px',        
         'background-size': 'contain',
@@ -62,7 +62,8 @@
         generateRandomNumbers();
         
         for (let gridItem of gridContainer.children) {
-            // adds Eventlistener for flipping the image
+            // adds Eventlistener for flipping the 
+            
             gridItem.addEventListener('click', flipImage);
             
             let box = gridItem.getAttribute('id');
