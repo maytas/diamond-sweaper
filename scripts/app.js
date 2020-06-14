@@ -24,7 +24,7 @@
      */
     function generateRandomNumbers() {
         const totalDiamonds  = 8;
-        
+        console.log("sweaper");
         // clearing the previous place diamonds
         randomPositions.length = 0;
         
